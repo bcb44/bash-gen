@@ -18,8 +18,6 @@ func main() {
 	}
 	envPath := usr.HomeDir + "/.bg/.env"
 	err = godotenv.Load(envPath)
-	fmt.Println(envPath)
-	fmt.Println(os.Getenv("openai_key"))
 	if err != nil {
 		fmt.Printf("godotenv.Load error: %v\n", err)
 		return
