@@ -18,3 +18,7 @@
 *
 !/**/
 !*.*
+
+# vs code workspace files
+.vscode/*
+*.code-workspace
